@@ -1,7 +1,7 @@
 /* Reset e Variáveis */
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    /* --primary-color: #2c3e50;
+     --secondary-color: #3498db;*/
     --accent-color: #e74c3c;
     --light-color: #ecf0f1;
     --dark-color: #2c3e50;
@@ -9,7 +9,8 @@
     --text-light: #7f8c8d;
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-heading: 'Montserrat', sans-serif;
-}
+    --primary-color: #2c3e50;
+     --secondary-color: #3498db;
 
 * {
     margin: 0;
@@ -113,7 +114,8 @@ section {
     font-family: var(--font-heading);
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--primary-color);
+    /* color: var(--primary-color);*/
+    color: #7f8c8d
     text-decoration: none;
 }
 
@@ -148,7 +150,7 @@ section {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--light-color) 0%, #fff 100%);
+    background: linear-gradient(135deg, var(--light-color) 0%, #b9b7b7 100%);
     padding-top: 80px;
 }
 
@@ -319,9 +321,9 @@ section {
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-    max-width: 800px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -331,9 +333,9 @@ section {
 }
 
 .skill-bar {
-    height: 10px;
+    height: 8px;
     background: #e0e0e0;
-    border-radius: 5px;
+    border-radius: 7px;
     overflow: hidden;
 }
 
